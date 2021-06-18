@@ -1,0 +1,79 @@
+html {
+    background-color: gray;
+    border: 2px solid black;
+}
+
+.NAVBAR {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 265px;
+    margin-right: 265px;
+    border-top-left-radius: 15px;
+}
+
+#header-image {
+    display: flex;
+    justify-content: center;
+    flex-shrink: ;
+    border: 2px solid black;
+    margin-left: 265px;
+    margin-right: 265px;
+}
+
+.top-box {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    border: 2px solid black;
+    margin-bottom: 1fr;
+    padding-bottom: -1fr;
+}
+
+.grid-items {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#box2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+#box3 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+#box4 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.box-left {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.box-upper-right {
+    border: 2px solid black;
+}
+
+.box-bottom-right {
+    border: 2px solid black;
+}
+
+.footer-links {
+    list-style: none;
+    border: 2px solid black;
+}
